@@ -1,6 +1,6 @@
 'use strict';
 
-class ColorGame {
+class AlexaSeed {
 
     constructor(applicationId) {
         this.appId = applicationId;
@@ -91,6 +91,6 @@ class ColorGame {
 }
 
 exports.handler = (event, context) => {
-    let colorGame = new ColorGame('YOUR_ALEXA_APP_ID');
-    colorGame.execute(event, context);
+    let mySkill = new AlexaSeed('YOUR_ALEXA_APP_ID');
+    mySkill.execute(event, context);
 };
