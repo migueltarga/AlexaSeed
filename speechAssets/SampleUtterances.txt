@@ -1,0 +1,8 @@
+EndIntent I want to stop playing
+EndIntent I want to stop
+EndIntent Stop
+EndIntent Shut up
+EndIntent Quiet
+EndIntent Quit
+EndIntent Exit
+Help Help
